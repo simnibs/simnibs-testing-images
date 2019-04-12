@@ -4,7 +4,7 @@
 ############################################
 
 ## This docker file is based on the miniconda3 image https://hub.docker.com/r/continuumio/miniconda3
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH /opt/conda/bin:$PATH
