@@ -7,4 +7,5 @@ In the CentOS 6 image, GCC is also installed.
 The docer files are based on the [Miniconda docker images](https://github.com/ContinuumIO/docker-images/tree/master/miniconda3)
 
 
-
+## Builds
+This repository builds automatically in [Dockerhub](https://hub.docker.com/r/simnibs/simnibs-testing)
