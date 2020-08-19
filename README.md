@@ -2,7 +2,6 @@
 
 This repository provides Linux docker images for building and testing SimNIBS.
 The docker images have the latest version of Miniconda installed and the bin directory added to the path.
-In the CentOS 6 image, GCC is also installed.
 
 The docer files are based on the [Miniconda docker images](https://github.com/ContinuumIO/docker-images/tree/master/miniconda3)
 
