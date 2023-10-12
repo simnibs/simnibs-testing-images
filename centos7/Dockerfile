@@ -21,6 +21,9 @@ RUN yum install -y centos-release-scl && \
 RUN curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o ~/miniconda.sh && \
     /bin/bash ~/miniconda.sh -b -p /opt/conda && \
     rm -f ~/miniconda.sh
-    
+
+# Install git
+RUN yum install git
+
 RUN echo "source /opt/rh/devtoolset-8/enable" >> /etc/bashrc
 SHELL ["/bin/bash", "--login", "-c"]
